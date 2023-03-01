@@ -5,11 +5,12 @@
 - [labs.play-with-k8s.com](https://labs.play-with-k8s.com/)
 - [killercoda.com/playgrounds](https://killercoda.com/playgrounds)
 
-## Resources 
+## Learning Resources 
 
+- [Kubernetes 101 Kubesimplify](https://www.youtube.com/live/PN3VqbZqmD8?feature=share)
 - [Docker Mastery: with Kubernetes +Swarm from a Docker Captain](https://www.udemy.com/course/docker-mastery/) Udemy course.
-- [BretFisher/udemy-docker-mastery](https://github.com/BretFisher/udemy-docker-mastery) GitHub repo.
-- Kubernetes official [docs](https://kubernetes.io/docs/home/)
+- [BretFisher/udemy-docker-mastery GitHub repo](https://github.com/BretFisher/udemy-docker-mastery)
+- [Kubernetes official docs](https://kubernetes.io/docs/home/)
 
 ## Tools arround k8s
 
@@ -285,7 +286,7 @@ echo cHJhZHVtbmE | base64 --decode
 
 We can mount Config and Secret as a volume 
 
-**depployment.yaml**
+**deployment.yaml**
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -355,7 +356,7 @@ Container communication - The container inside a pod communicate via localhost s
 
 Steps
 
-1) Create a deploymeny with the config file below 
+1) Create a deployment with the config file below 
  
 ```YAML
 apiVersion: apps/v1
@@ -384,7 +385,7 @@ spec:
         args: ["-c", "echo Hello from the sidecar container! && sleep 3600"]
 ```
 
-2) Get inside the `sidecar` conatiner in the pod myapp and access the terminal by:
+2) Get inside the `sidecar` container in the pod myapp and access the terminal by:
 
 ```bash
 kubectl exec -it <pod-name> -c sidecar -- /bin/sh
@@ -397,7 +398,7 @@ curl localhost:80
 ```
 ## Updating Strategy
 
-Updating means chnaging the image of the pod.
+Updating means changing the image of the pod.
 
 ### Rolling Update
 

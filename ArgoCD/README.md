@@ -3,6 +3,11 @@
 - [ArgoCD](https://argoproj.github.io/cd)
 - [ArgoCD GitHub Repo](https://github.com/argoproj/argo-cd)
 
+### Learning Resources
+
+- [GitOps Tech world with naina (Video)](https://youtu.be/MeU5_k9ssrs)
+- [GitOps Fundamentals (Course)](https://learning.codefresh.io/)
+
 > _"One the founding principles of GitOps - everything stored in Git."_
 
 Argo CD is a popular GitOps controller. It is used to deploy applications to Kubernetes clusters. It is also used to manage the configuration of the cluster itself. It can be changed too.
@@ -51,7 +56,7 @@ Progressive Delivery is the practice of deploying an application in a gradual ma
 
 [Docs](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/) for reference.
 
-Samle YAML:
+Sample YAML:
 
 ```YAML
 apiVersion: argoproj.io/v1alpha1
