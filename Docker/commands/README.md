@@ -24,7 +24,7 @@ docker pull <image name>
   - Additioanly we can use flags
   
      - `--name <name> `- To give a name to the container.
-     - `-p <Host port:container port>`- To fowrad the port.
+     - `-p <Host port:container port>`- To forward the port.
      - `-d` - To run in detached mode
      - `-it` - For interactive envirnoment
      - `-e` - For environment variable
@@ -210,6 +210,11 @@ docker
 docker run -v <path-to-folder-on-local-machine>:<path-to-folder-on-container> -v <path-to-file/folder-on-container> -p <local-machine-port>:<container-port> -d --name docker-node docker-node
 ```
 To make it read only so that when you add some files inside it, the container will not get created on your local machine use `-v port:port:ro`
+
+- docker  volume command for mounting the docker socket to the docker container for accessing the host's docker daemon for performing the continuous integration in jenkins while using docker as a agent.. 
+```bash
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock docker-image:version bin/bash
+```
 
 ### Docker Compose
 

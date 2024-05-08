@@ -1,3 +1,21 @@
+# [1.5.0](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.4...v1.5.0) (2024-01-23)
+
+
+### Features
+
+* Add Google Analytics ([d154181](https://github.com/Pradumnasaraf/DevOps/commit/d154181ad1c772d44a0e1a3378c0b82c92005dbc))
+
+
+
+## [1.4.4](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.3...v1.4.4) (2024-01-16)
+
+
+### Bug Fixes
+
+* update the docker compose file to compose.dev.yaml and compose.yaml ([a7f57fe](https://github.com/Pradumnasaraf/DevOps/commit/a7f57fe51e4277b205b773706af1da4f5c09a702))
+
+
+
 ## [1.4.3](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.2...v1.4.3) (2023-07-07)
 
 
@@ -22,25 +40,6 @@
 ### Bug Fixes
 
 * release action ([29720ce](https://github.com/Pradumnasaraf/DevOps/commit/29720cef1b86800613e7d18e6b82546700fbd4f7))
-
-
-
-# [1.4.0](https://github.com/Pradumnasaraf/DevOps/compare/v1.3.3...v1.4.0) (2023-05-31)
-
-
-### Features
-
-* Add a discord bot to go app ([80941c8](https://github.com/Pradumnasaraf/DevOps/commit/80941c86ced3e40aaef379b6ca762938b16be111))
-
-
-
-## [1.3.3](https://github.com/Pradumnasaraf/DevOps/compare/v1.3.2...v1.3.3) (2023-05-31)
-
-
-### Bug Fixes
-
-* Add versioning to GHCR and DockerHub images ([405e1ad](https://github.com/Pradumnasaraf/DevOps/commit/405e1adc80168ecf03282500bf7c0de18cb466f4))
-* the version file name ([9369b75](https://github.com/Pradumnasaraf/DevOps/commit/9369b75d4f74fae2c84208db49cef669c97e1f30))
 
 
 
