@@ -1,45 +1,45 @@
-# [1.5.0](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.4...v1.5.0) (2024-01-23)
+# [2.3.0](https://github.com/Pradumnasaraf/DevOps/compare/v2.2.0...v2.3.0) (2024-08-02)
 
 
 ### Features
 
-* Add Google Analytics ([d154181](https://github.com/Pradumnasaraf/DevOps/commit/d154181ad1c772d44a0e1a3378c0b82c92005dbc))
+* add algolia search functionality ([#95](https://github.com/Pradumnasaraf/DevOps/issues/95)) ([e709c08](https://github.com/Pradumnasaraf/DevOps/commit/e709c089adefbab3a57aa6cef08863441cefd9bf))
 
 
 
-## [1.4.4](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.3...v1.4.4) (2024-01-16)
+# [2.2.0](https://github.com/Pradumnasaraf/DevOps/compare/v2.1.0...v2.2.0) (2024-07-27)
 
 
-### Bug Fixes
+### Features
 
-* update the docker compose file to compose.dev.yaml and compose.yaml ([a7f57fe](https://github.com/Pradumnasaraf/DevOps/commit/a7f57fe51e4277b205b773706af1da4f5c09a702))
-
-
-
-## [1.4.3](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.2...v1.4.3) (2023-07-07)
-
-
-### Bug Fixes
-
-* link rendring on website ([531a539](https://github.com/Pradumnasaraf/DevOps/commit/531a5390d0af8e1b0d7fe0c8e666a565caf2ea97))
+* add a FAQ section and some nitpicks ([0902e86](https://github.com/Pradumnasaraf/DevOps/commit/0902e8620b1c29685ba269b0819bf2b45404776c))
 
 
 
-## [1.4.2](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.1...v1.4.2) (2023-06-14)
+# [2.1.0](https://github.com/Pradumnasaraf/DevOps/compare/v2.0.2...v2.1.0) (2024-07-25)
 
 
-### Bug Fixes
+### Features
 
-* docker compose config ([69a2f20](https://github.com/Pradumnasaraf/DevOps/commit/69a2f20dc58713897d57f38a3263319ca1b324fe))
+* update intro and config ([a8727bb](https://github.com/Pradumnasaraf/DevOps/commit/a8727bb21e033886d0d201da74d9dd68777152cb))
 
 
 
-## [1.4.1](https://github.com/Pradumnasaraf/DevOps/compare/v1.4.0...v1.4.1) (2023-06-11)
+## [2.0.2](https://github.com/Pradumnasaraf/DevOps/compare/v1.5.1...v2.0.2) (2024-07-24)
 
 
 ### Bug Fixes
 
-* release action ([29720ce](https://github.com/Pradumnasaraf/DevOps/commit/29720cef1b86800613e7d18e6b82546700fbd4f7))
+* Bump package version to 2.0.1 ([a429f46](https://github.com/Pradumnasaraf/DevOps/commit/a429f4660a4ff4407622fca49c6eb3dfd1ce8cf2))
+
+
+
+## [1.5.1](https://github.com/Pradumnasaraf/DevOps/compare/v2.0.0...v1.5.1) (2024-07-24)
+
+
+### Bug Fixes
+
+* V2 cleanup ([#93](https://github.com/Pradumnasaraf/DevOps/issues/93)) ([6c852a8](https://github.com/Pradumnasaraf/DevOps/commit/6c852a8b62e9e2208c4271c81832dfaf1a312378))
 
 
 
