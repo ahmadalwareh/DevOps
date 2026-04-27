@@ -1,6 +1,10 @@
 ---
 sidebar_position: 2
 title: Learning Resources
+description: A collection of resources to learn more about Golang.
+tags: ["Golang", "Programming", "Go"]
+keywords: ["Golang", "Programming", "Go"]
+slug: "/golang/resources"
 ---
 
 - [Go by Example](https://gobyexample.com/)
@@ -10,4 +14,10 @@ title: Learning Resources
 - [Let's go with golang](https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa) - Recommended
 - [Golang Tutorial TechWorld with Nana](https://youtu.be/yyUHQIec83I)
 - [Codeacademy Free course](https://www.codecademy.com/learn/learn-go)
+- [Gophercises](https://gophercises.com/)
+
+## Read next
+
+- [Golang Introduction](./introduction.md) - Review the basics and core language concepts.
+- [Other Resources](./other-resources.md) - Browse more Go concepts and example apps.
 

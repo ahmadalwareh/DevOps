@@ -1,6 +1,10 @@
 ---
 sidebar_position: 3
 title: Networking Commands
+description: A collection of networking commands that can help you troubleshoot network issues.
+tags: ["Networking", "Linux", "Network Troubleshooting"]
+keywords: ["Networking", "Linux", "Network Troubleshooting"]
+slug: "/networking/commands"
 ---
 
 
@@ -43,3 +47,8 @@ Hostname is a command that is used to display the name of the current host.
 ```bash
 hostname
 ```
+
+## Read next
+
+- [Networking Introduction](./introduction.md) - Review the basics behind DNS, IP addresses, and routing.
+- [Learning Resources](./learning-resources.md) - Continue with tutorials and networking references.

@@ -1,6 +1,6 @@
 <h1 align="center"> DevOps </h1>
 
-<p align="center"> Contains all my learning related to DevOps tools and tech.</p>
+<p align="center"> Contains all my learning related to DevOps tools and tech. To get a better user experience, visit the hosted version of this repo at <a href="https://devops.pradumnasaraf.dev">devops.pradumnasaraf.dev</a> </p>
 
 ## Docker
 
@@ -12,8 +12,6 @@
 - [Compose/Stack Files](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/docker/docker-compose)
 - [Dockerfile](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/docker/dockerfiles)
 
-<be>
-
 ## Kubernetes
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/200594367-f416d081-af8f-4f48-8008-998d005b317f.png" height="100" alt="Kubernetes"> 
@@ -21,9 +19,11 @@
 - [Notes](docs/kubernetes/introduction.md)
 - [Learning Resources](docs/kubernetes/learning-resources.md)
 - [Commands](docs/kubernetes/commands.md)
-- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/kubernetes/manifests)
-
-<br>
+- [Sample Apps](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/kubernetes/apps)
+- [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/kubernetes/k8s-resources-type)
+- [Tools](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/kubernetes/tools)
+- [Playground](docs/kubernetes/playground.md)
+- [Other Resources](docs/kubernetes/other-resources.md)
 
 ## GitHub Actions
 
@@ -31,9 +31,9 @@
 
 - [Notes](docs/github-actions/introduction.md)
 - [Learning Resources](docs/github-actions/learning-resources.md)
-- [Workflows](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/github-actions/workflows)
-
-<br>
+- [Workflows](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/github-actions/Workflows)
+- [Scenarios](docs/github-actions/scenarios.md)
+- [Other Resources](docs/github-actions/other-resources.md)
 
 ## Linux
 
@@ -43,7 +43,6 @@
 - [Learning Resources](docs/linux/learning-resources.md)
 - [Commands](docs/linux/commands.md)
 
-<br>
 
 ## Git 
 
@@ -53,8 +52,6 @@
 - [Learning Resources](docs/git/learning-resources.md)
 - [Commands](docs/git/commands.md)
 
-<br>
-
 ## Networking
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/204347251-efd0e271-5d3c-4008-bdab-6f6ce5b2195f.png" height="100" alt="network"> 
@@ -63,8 +60,6 @@
 - [Learning Resources](docs/networking/learning-resources.md)
 - [Commands](docs/networking/commands.md)
 
-<br>
-
 ## YAML
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/202765143-55758916-b631-4c18-aaad-718b42507d67.png" height="100" alt="YAML"> 
@@ -72,18 +67,15 @@
 - [Notes](docs/yaml/introduction.md)
 - [Learning Resources](docs/yaml/learning-resources.md)
 
-<br>
-
-## Go
+## Golang (Go)
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/213385507-52f03107-388c-4992-9b5e-c89de6906e37.png" height="100" alt="network"> 
 
-- [Notes](docs/go/introduction.md)
-- [Learning Resources](docs/go/learning-resources.md)
+- [Notes](docs/golang/introduction.md)
+- [Learning Resources](docs/golang/learning-resources.md)
 - [Concepts](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/golang/concepts)
-- [Practice App](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/golang/app)
-
-<br>
+- [Practice App](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/golang/apps)
+- [Other Resources](docs/golang/other-resources.md)
 
 ## Helm
 
@@ -91,8 +83,7 @@
 
 - [Notes](docs/helm/introduction.md)
 - [Learning Resources](docs/helm/learning-resources.md)
-
-<br>
+- [Charts](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/helm/charts)
 
 ## Prometheus
 
@@ -101,8 +92,6 @@
 - [Notes](docs/prometheus/introduction.md)
 - [Learning Resources](docs/prometheus/learning-resources.md)
 
-<br>
-
 ## GitOps
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/206730962-b20f94c1-17af-48b2-b62c-b6c02dbeeb77.png" height="100" alt="Gitops"> 
@@ -110,70 +99,43 @@
 - [Notes](docs/gitops/introduction.md)
 - [Learning Resources](docs/gitops/learning-resources.md)
 
-<br>
-
 ## ArgoCD
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/205495495-b3f0b395-3ce3-42d8-9274-220ff10334f6.png" height="100" alt="Argo"> 
 
-- [Notes + Learning Resources](docs/argocd/introduction.md)
+- [Notes](docs/argocd/introduction.md)
+- [Learning Resources](docs/argocd/learning-resources.md)
 - [Manifest Files](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/argocd/manifests)
-
-<br>
 
 ## Jenkins 
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/209197795-570330e6-fbee-4bf3-a42e-b8609e3afc46.png" height="100" alt="Jenkins"> 
 
-- [Notes + Learning Resources](docs/jenkins/introduction.md)
+- [Notes](docs/jenkins/introduction.md)
+- [Learning Resources](docs/jenkins/learning-resources.md)
 - [Jenkinsfile](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/jenkins/jenkinsfiles)
-<br>
 
 ## Bash Scripting 
 
 <img align="right" src="https://user-images.githubusercontent.com/51878265/200594989-b1406680-ed41-478a-84d5-7c35b287e112.png" height="100" alt="Bash"> 
 
-- [Notes + Learning Resources](docs/bash-scripting/introduction.md)
+- [Notes](docs/bash-scripting/introduction.md)
+- [Learning Resources](docs/bash-scripting/learning-resources.md)
 - [Script](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/bash-scripting/scripts)
 
-<br>
+## WebAssembly (WASM)
 
-## Portainer
+<img align="right" src="https://github.com/user-attachments/assets/0687a31f-fa90-4aeb-b3f2-b841d8758f77" height="100" alt="Wasm">
 
-<img align="right" src="https://user-images.githubusercontent.com/51878265/204345912-dee5ddf4-4a91-4b4f-aeb3-5a429de5a7f7.png" height="100" alt="portainer"> 
+- [Notes](docs/webassembly/introduction.md)
+- [Learning Resources](docs/webassembly/learning-resources.md)
+- [Tools](docs/webassembly/tools.md)
+- [Files and Sample Apps](https://github.com/Pradumnasaraf/DevOps/tree/main/docs/webassembly/files)
 
-- [Notes + Learning Resources](docs/kubernetes/tools/portainer.md)
+## Terraform
 
-<br>
+<img align="right" src="https://github.com/user-attachments/assets/b81903bd-4377-4517-a1fd-8e6c99bdfa9a" height="100" alt="Terraform">
 
-## Lens IDE
-
-<img align="right" src="https://user-images.githubusercontent.com/51878265/208243882-9c4f03fe-7aa3-4f42-84c4-ab90047e056b.png" height="100" alt="Lens"> 
-
-- [Notes + Learning Resources](docs/kubernetes/tools/lens.md)
-
-<br>
-
-## Kubescape 
-
-<img align="right" src="https://user-images.githubusercontent.com/51878265/208244012-919ce817-32c1-40fe-b31f-44dba72655da.png" height="100" alt="Kubescape"> 
-
-- [Notes + Learning Resources](docs/kubernetes/tools/kubescape.md)
-
-<br>
-
-## ValidKube 
-
-<img align="right" src="https://user-images.githubusercontent.com/51878265/208244291-3e43c1aa-cee1-4943-8775-21189cab3dcd.png" height="50" alt="ValidKube"> 
-
-- [Notes + Learning Resources](docs/kubernetes/tools/validkube.md)
-
-<br>
-<br>
-
-<!-- ### Topic to cover
-- Ansible
-- Terraform
-- CI/CD
-- Advanced Networking
- -->
+- [Notes](docs/terraform/introduction.md)
+- [Learning Resources](docs/terraform/learning-resources.md)
+- [Commands](docs/terraform/commands.md)

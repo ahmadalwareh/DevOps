@@ -1,6 +1,10 @@
 ---
 sidebar_position: 2
-title: Senarios and Examples
+title: Scenarios and Examples
+description: A collection of scenarios and examples to help you get started with GitHub Actions.
+tags: ["GitHub Actions", "DevOps", "Continuous Integration", "Continuous Deployment"]
+keywords: ["GitHub Actions", "DevOps", "Continuous Integration", "Continuous Deployment"]
+slug: "/github-actions/scenarios"
 ---
 
 This section contains GitHub workflow configuration files for different scenarios. You can use these files as a reference to create your own workflows.
@@ -52,7 +56,7 @@ jobs:
 
 ### Check and Build Go Project
 
-This workflow will check if the code is getting built and formatted correctly. It will also check for linting issues in the code. Can be useful to check incoming PRs.
+This workflow checks whether the code builds correctly, is properly formatted, and passes linting. It is useful for incoming pull requests.
 
 ```yaml
 name: CI
@@ -290,3 +294,9 @@ jobs:
       - name: Docker Push
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/devops:${{ steps.package-version.outputs.current-version}}
 ```
+
+## Read next
+
+- [GitHub Actions Introduction](./introduction.md) - Review workflow syntax, jobs, and events.
+- [Learning Resources](./learning-resources.md) - Continue with official docs and longer tutorials.
+- [Other Resources](./other-resources.md) - Browse reusable workflow files.

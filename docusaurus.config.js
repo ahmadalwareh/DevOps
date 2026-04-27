@@ -9,14 +9,18 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DevOps',
-  tagline: 'Learn DevOps',
+  tagline: 'Practical DevOps notes, examples, and learning paths',
   favicon: 'img/favicon.ico',
   url: 'https://devops.pradumnasaraf.dev',
   baseUrl: '/',
   organizationName: 'Pradumnasaraf', 
   projectName: 'DevOps',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -56,6 +60,15 @@ const config = {
         // searchParameters: {},
         //... other algolia configuration
       },
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       image: 'img/devops-repo-card.png',
       navbar: {
         title: 'DevOps',
@@ -65,13 +78,48 @@ const config = {
         },
         items: [
           {
+            to: '/',
+            label: 'Start Here',
+            position: 'left',
+          },
+          {
+            to: '/qna',
+            label: 'Q&A',
+            position: 'left',
+          },
+          {
+            to: '/docker',
+            label: 'Docker',
+            position: 'left',
+          },
+          {
+            to: '/kubernetes',
+            label: 'Kubernetes',
+            position: 'left',
+          },
+          {
+            to: '/terraform',
+            label: 'Terraform',
+            position: 'left',
+          },
+          {
+            to: '/github-actions',
+            label: 'GitHub Actions',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/Pradumnasaraf/DevOps',
             label: 'GitHub',
             position: 'right',
           }, 
           {
-            href: 'https://twitter.com/pradumna_Saraf',
-            label: 'Twitter',
+            href: 'https://x.com/pradumna_Saraf',
+            label: 'X',
+            position: 'right',
+          },
+          {
+            to: '/feedback',
+            label: 'Contribute',
             position: 'right',
           },
         ],
@@ -83,6 +131,63 @@ const config = {
           href: 'https://devops.pradumnasaraf.dev',
         },
         style: 'light',
+        links: [
+          {
+            title: 'Start',
+            items: [
+              {
+                label: 'Introduction',
+                to: '/',
+              },
+              {
+                label: 'Q&A',
+                to: '/qna',
+              },
+              {
+                label: 'Feedback',
+                to: '/feedback',
+              },
+            ],
+          },
+          {
+            title: 'Popular Topics',
+            items: [
+              {
+                label: 'Docker',
+                to: '/docker',
+              },
+              {
+                label: 'Kubernetes',
+                to: '/kubernetes',
+              },
+              {
+                label: 'Terraform',
+                to: '/terraform',
+              },
+              {
+                label: 'GitHub Actions',
+                to: '/github-actions',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'GitHub Repository',
+                href: 'https://github.com/Pradumnasaraf/DevOps',
+              },
+              {
+                label: 'Open an Issue',
+                href: 'https://github.com/Pradumnasaraf/DevOps/issues/new/choose',
+              },
+              {
+                label: 'Follow Pradumna',
+                href: 'https://x.com/pradumna_Saraf',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Pradumna Saraf`,
       },
       prism: {
@@ -90,6 +195,160 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          /* Argocd */
+          {
+            from: ['/argocd/introduction'],
+            to: '/argocd',
+          },
+          {
+            from: ['/argocd/learning-resources'],
+            to: '/argocd/resources',
+          },
+          /* Bash Scripting */
+          {
+            from: ['/bash-scripting/introduction', '/bash-scripting', '/bash-introduction'],
+            to: '/bash',
+          },
+          {
+            from: ['/bash-scripting/learning-resources', '/bash-scripting/resources'],
+            to: '/bash/resources',
+          },
+          {
+            from: ['/bash-scripting/tools'],
+            to: '/bash/tools',
+          },
+          /* DevSecOps */
+          {
+            from: ['/devsecops/introduction'],
+            to: '/devsecops',
+          },
+          /* Docker */
+          {
+            from: ['/docker/introduction'],
+            to: '/docker',
+          },
+          {
+            from: ['/docker/learning-resources'],
+            to: '/docker/resources',
+          },
+          /* Git */
+          {
+            from: ['/git/introduction'],
+            to: '/git',
+          },
+          {
+            from: ['/git/learning-resources'],
+            to: '/git/resources',
+          },
+          /* GitHub Actions */
+          {
+            from: ['/github-actions/introduction'],
+            to: '/github-actions',
+          },
+          {
+            from: ['/github-actions/learning-resources'],
+            to: '/github-actions/resources',
+          },
+          /* GitOps */
+          {
+            from: ['/gitops/introduction'],
+            to: '/gitops',
+          },
+          {
+            from: ['/gitops/learning-resources'],
+            to: '/gitops/resources',
+          },
+          /* Golang */
+          {
+            from: ['/golang/introduction', '/go/introduction', '/go'],
+            to: '/golang',
+          },
+          {
+            from: ['/golang/learning-resources', '/go/learning-resources'],
+            to: '/golang/resources',
+          },
+          /* Helm */
+          {
+            from: ['/helm/introduction'],
+            to: '/helm',
+          },
+          {
+            from: ['/helm/learning-resources'],
+            to: '/helm/resources',
+          },
+          /* Jenkins */
+          {
+            from: ['/jenkins/introduction'],
+            to: '/jenkins',
+          },
+          {
+            from: ['/jenkins/learning-resources'],
+            to: '/jenkins/resources',
+          },
+          /* Kubernetes */
+          {
+            from: ['/kubernetes/introduction', '/k8s/introduction', '/k8s'],
+            to: '/kubernetes',
+          },
+          {
+            from: ['/kubernetes/learning-resources', '/k8s/learning-resources'],
+            to: '/kubernetes/resources',
+          },
+          /* Linux */
+          {
+            from: ['/linux/introduction'],
+            to: '/linux',
+          },
+          {
+            from: ['/linux/learning-resources'],
+            to: '/linux/resources',
+          },
+          /* Networking */
+          {
+            from: ['/networking/introduction', '/network'],
+            to: '/networking',
+          },
+          {
+            from: ['/networking/learning-resources'],
+            to: '/networking/resources',
+          },
+          /* Prometheus */
+          {
+            from: ['/prometheus/introduction', '/prom/introduction', '/prom'],
+            to: '/prometheus',
+          },
+          {
+            from: ['/prometheus/learning-resources'],
+            to: '/prometheus/resources',
+          },
+          /* WebAssembly */
+          {
+            from: ['/webassembly/introduction', '/wasm/introduction', '/wasm'],
+            to: '/webassembly',
+          },
+          {
+            from: ['/webassembly/learning-resources', '/wasm/learning-resources'],
+            to: '/webassembly/resources',
+          },
+          /* YAML */
+          {
+            from: ['/yaml/introduction'],
+            to: '/yaml',
+          },
+          {
+            from: ['/yaml/learning-resources'],
+            to: '/yaml/resources',
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 export default config;

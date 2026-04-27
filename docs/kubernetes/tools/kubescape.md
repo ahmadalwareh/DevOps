@@ -1,6 +1,10 @@
 ---
 title: Kubescape
 sidebar_position: 2
+description: A tool that helps you scan your Kubernetes clusters for security misconfigurations.
+tags: [Kubernetes, Tools, Security]
+keywords: [Kubernetes, Tools, Security, Kubescape]
+slug: /kubernetes/tools/kubescape
 ---
 
 
@@ -9,7 +13,6 @@ Kubescape is a tool that helps you scan your Kubernetes clusters for security mi
 - [Website](https://armosec.io/kubescape)
 - [Docs](https://hub.armosec.io/docs)
 - [GitHub](https://github.com/kubescape/kubescape)
-
  
 ### Usage
 

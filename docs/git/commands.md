@@ -1,6 +1,10 @@
 ---
 sidebar_position: 3
 title: Git Commands
+description: A collection of Git commands that can help you with version control.
+tags: ["Git", "Version Control System", "DevOps"]
+keywords: ["Git", "Version Control System", "DevOps"]
+slug: "/git/commands"
 ---
 
 ## **Add**
@@ -430,20 +434,25 @@ title: Git Commands
   git diff
   ```
 
-- repo's remote url
+- Remote URLs
 
   ```bash
   git remote -v
   ```
 
-- repo's remote url
+- Branches
 
   ```bash
   git branch # The active branch is prefixed with *
   ```
 
-- repo's remote url
+- Tags
 
   ```bash
   git tag
   ```
+
+## Read next
+
+- [Git Introduction](./introduction.md) - Review the core Git concepts behind these commands.
+- [Learning Resources](./learning-resources.md) - Continue with tutorials, docs, and practice tools.
